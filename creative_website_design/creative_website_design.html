@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8">
+        <title>Creatvie Website Design</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <section>
+            <div class="logo">Creatvie</div>
+            <img src="bg.jpg" class="bg">
+            <div class="content">
+                <h2>Let's Make<br>Something Creatvie</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium sequi ad, deserunt dignissimos vero labore temporibus maxime beatae esse itaque optio quos magnam laborum exercitationem et nostrum perferendis veniam veritatis expedita quibusdam suscipit, accusamus ab!</p>
+                <a href="#">Get Started</a>
+            </div>
+            <p class="copyrightText">@2020. Online Tutorials</p>
+        </section>
+        <div class="menuToggle" onclick="toggleMenu();"></div>
+        <div class="navigation">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Work</a></li>
+                <li><a href="#">Team</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            <div class="socialBar">
+                <ul>
+                    <li><a href="#"><img src="facebook.png"></a></li>
+                    <li><a href="#"><img src="twitter.png"></a></li>
+                    <li><a href="#"><img src="instagram.png"></a></li>
+                </ul>
+                <a href="mailto:you@email.com" class="emailBx"><img src="email.png"></a>
+            </div>
+        </div>
+
+        <script type="text/javascript">
+            function toggleMenu() {
+                var menuToggle = document.querySelector('.menuToggle');
+                var navigation = document.querySelector('.navigation');
+                menuToggle.classList.toggle('active');
+                navigation.classList.toggle('active');
+            }
+        </script>
+    </body>
+</html>
