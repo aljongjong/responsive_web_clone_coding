@@ -1,1 +1,1 @@
-# responsive_web_clone_coding
+# 반응형 웹페이지 클론 코딩
